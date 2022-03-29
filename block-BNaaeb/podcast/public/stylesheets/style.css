@@ -1,0 +1,101 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(181, 219, 207);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+header {
+  box-shadow: 2px 2px 4px 2px rgb(235, 233, 233);
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, rgb(211, 177, 211), rgb(170, 202, 170));
+  color: #ffff;
+}
+.title {
+  text-align: center;
+  margin-top: 3rem;
+  color: rgb(212, 69, 69);
+  text-shadow: 0 2px 4px black;
+}
+header nav {
+  margin-right: 3rem;
+}
+header nav a {
+  margin: 0 1rem;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+header nav a:hover,
+header h1:hover {
+  cursor: pointer;
+  text-shadow: 0px 2px 6px red;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1430px;
+  width: 100%;
+  margin: o auto;
+  padding: 0 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-30 {
+  flex: 1 1 30%;
+}
+
+.flex-60 {
+  flex: 1 1 60%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+form {
+  width: 350px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: linear-gradient(to right, rgb(236, 178, 139), rgb(196, 94, 94));
+  box-shadow: 2px 2px 4px 2px rgb(230, 226, 226);
+  text-align: center;
+}
+
+input,
+.form {
+  width: 80%;
+  outline: none;
+  padding: 0.2rem;
+  margin: 0.5rem;
+}
+.reg {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 40rem;
+  height: 8rem;
+  background-color: aquamarine;
+  text-align: center;
+}
+.reg a {
+  font-size: 2rem;
+  display: block;
+}
+.reg p {
+  font-size: 3rem;
+}
+.red {
+  color: red;
+}
