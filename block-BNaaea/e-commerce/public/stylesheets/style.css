@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, rgb(138, 207, 138), rgb(245, 159, 245));
+}
+.index {
+  text-align: center;
+}
+
+a {
+  color: #00b7ff;
+}
+.index a {
+  margin: 0 1rem;
+  color: red;
+  font-size: 1rem;
+}
+form {
+  padding: 1rem;
+  box-shadow: 2px 4px 6px black;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(160, 93, 93);
+}
+input {
+  margin: 0.8rem 0;
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0.3rem;
+}
